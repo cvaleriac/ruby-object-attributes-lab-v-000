@@ -13,4 +13,6 @@ def breed
   end
 end
 fido = Dog.new("Fido")
+fido.name = "Fido"
 fido = Dog.new("Beagle")
+fido.breed = "Beagle"
